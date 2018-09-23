@@ -20,7 +20,7 @@
   {
     "kind": "DoubleProperty",
     "name": "rlen",
-    "defaultValue": true,
+    "defaultValue": 10,
     "description": "size of rlen"
   },
    {
