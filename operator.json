@@ -40,7 +40,7 @@
     "name": "alpha_1",
     "defaultValue": 0.05,
     "description": "alpha setting"
-  },'
+  },
    {
     "kind": "DoubleProperty",
     "name": "alpha_2",
