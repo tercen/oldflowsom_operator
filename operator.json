@@ -31,12 +31,6 @@
   },
    {
     "kind": "DoubleProperty",
-    "name": "mst",
-    "defaultValue": 1,
-    "description": "amount of training"
-  },
-   {
-    "kind": "DoubleProperty",
     "name": "alpha_1",
     "defaultValue": 0.05,
     "description": "alpha setting"
@@ -50,7 +44,7 @@
  {
     "kind": "DoubleProperty",
     "name": "distf",
-    "defaultValue": 1,
+    "defaultValue": 2,
     "description": "distance setting"
   }
   ]
