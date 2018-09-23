@@ -1,0 +1,59 @@
+{
+  "name": "flowsom",
+  "description": "clustering algorithm from the flowSOM R package",
+  "tags": ["clustering", "flow cytometry"],
+  "authors": ["tercen"],
+  "urls": ["https://github.com/tercen/flowsom_operator"],
+  "properties": [
+  {
+    "kind": "IntergerProperty",
+    "name": "xdim",
+    "defaultValue": 10,
+    "description": "size of x dim for the som grid"
+  },
+   {
+    "kind": "IntergerProperty",
+    "name": "ydim",
+    "defaultValue": 10,
+    "description": "size of y dim for the som grid"
+  },
+  {
+    "kind": "IntergerProperty",
+    "name": "rlen",
+    "defaultValue": true,
+    "description": "size of rlen"
+  },
+   {
+    "kind": "IntergerProperty",
+    "name": "mst",
+    "defaultValue": 1,
+    "description": "amount of training"
+  },
+   {
+    "kind": "IntergerProperty",
+    "name": "mst",
+    "defaultValue": 1,
+    "description": "amount of training"
+  },
+   {
+    "kind": "DoubleProperty",
+    "name": "alpha_1",
+    "defaultValue": 0.05,
+    "description": "alpha setting"
+  },'
+   {
+    "kind": "DoubleProperty",
+    "name": "alpha_2",
+    "defaultValue": 0.01,
+    "description": "alpha setting"
+  },
+ {
+    "kind": "IntergerProperty",
+    "name": "distf",
+    "defaultValue": 1,
+    "description": "distance setting"
+  }
+  ]
+}
+
+

@@ -1,0 +1,319 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.9.12
+RVersion: 3.3.3
+Repos: CRAN=https://cran.rstudio.com/,
+    BioCsoft=https://bioconductor.org/packages/3.4/bioc,
+    BioCann=https://bioconductor.org/packages/3.4/data/annotation,
+    BioCexp=https://bioconductor.org/packages/3.4/data/experiment,
+    BioCextra=https://bioconductor.org/packages/3.4/extra
+
+Package: ALL
+Source: Bioconductor
+Version: 1.16.0
+Hash: f17051e922f12959d003ed9831b29adc
+Requires: Biobase
+
+Package: BH
+Source: CRAN
+Version: 1.66.0-1
+Hash: 4cc8883584b955ed01f38f68bc03af6d
+
+Package: Biobase
+Source: Bioconductor
+Version: 2.34.0
+Hash: cd3d884ba3f526861c54f24f5f52203d
+Requires: BiocGenerics
+
+Package: BiocGenerics
+Source: Bioconductor
+Version: 0.20.0
+Hash: ce45642fa93df3c66879867d96815407
+
+Package: ConsensusClusterPlus
+Source: Bioconductor
+Version: 1.38.0
+Hash: a43549d9a9f120f6a0b4a0a716ab09e1
+Requires: ALL, Biobase, cluster
+
+Package: DEoptimR
+Source: CRAN
+Version: 1.0-8
+Hash: adc74e88e85eabe6c7d73db6a86fe6cf
+
+Package: FlowSOM
+Source: Bioconductor
+Version: 1.6.0
+Hash: 8fe92079e67c0b760d2cecb72a5bf84c
+Requires: BiocGenerics, ConsensusClusterPlus, XML, flowCore, flowUtils,
+    igraph, tsne
+
+Package: Matrix
+Source: CRAN
+Version: 1.2-8
+Hash: 496395eb8eae0fc9a82c8d60758f544c
+Requires: lattice
+
+Package: R6
+Source: CRAN
+Version: 2.2.2
+Hash: b2366cd9d2f3851a5704b4e192b985c2
+
+Package: RUnit
+Source: CRAN
+Version: 0.4.32
+Hash: 7dd10abc3e32399b6398fc956ce43ad4
+
+Package: Rcpp
+Source: CRAN
+Version: 0.12.16
+Hash: 8cc9dc88c11acdcf8a6dec4a0f1500bc
+
+Package: XML
+Source: CRAN
+Version: 3.98-1.11
+Hash: 93ca736e34d01f5952dc770fbfa5fa62
+
+Package: assertthat
+Source: CRAN
+Version: 0.2.0
+Hash: e8805df54c65ac96d50235c44a82615c
+
+Package: bindr
+Source: CRAN
+Version: 0.1.1
+Hash: 76578c5f543a6ecbc1365d6445f9ebf7
+
+Package: bindrcpp
+Source: CRAN
+Version: 0.2.2
+Hash: f97e97075970836f25b6cb53b3a52c4f
+Requires: Rcpp, bindr, plogr
+
+Package: cli
+Source: CRAN
+Version: 1.0.0
+Hash: f4239f89feb7ddc65821e4514e9734ae
+Requires: assertthat, crayon
+
+Package: cluster
+Source: CRAN
+Version: 2.0.5
+Hash: 80ca2d4d18a212e4dbefbfc39f079121
+
+Package: corpcor
+Source: CRAN
+Version: 1.6.9
+Hash: f641167f85158bfc7cd4b97ac1c26701
+
+Package: crayon
+Source: CRAN
+Version: 1.3.4
+Hash: ff2840dd9b0d563fc80377a5a45510cd
+
+Package: curl
+Source: CRAN
+Version: 3.2
+Hash: e3318ec2d42d15a38485bab047d114ba
+
+Package: dplyr
+Source: CRAN
+Version: 0.7.4
+Hash: cf677ec8dad7a45d1397dd7e72ef30c6
+Requires: BH, R6, Rcpp, assertthat, bindrcpp, glue, magrittr,
+    pkgconfig, plogr, rlang, tibble
+
+Package: flowCore
+Source: Bioconductor
+Version: 1.40.6
+Hash: e6ec9b26a582d0c5a8f27c89bf14f6a5
+Requires: BH, Biobase, BiocGenerics, Rcpp, corpcor, graph, matrixStats,
+    rrcov
+
+Package: flowUtils
+Source: Bioconductor
+Version: 1.38.0
+Hash: 682848f465fe7f405800d756e97a5d3b
+Requires: Biobase, RUnit, XML, corpcor, flowCore, graph
+
+Package: glue
+Source: CRAN
+Version: 1.2.0
+Hash: 381e42baedecc633c0e547a0c7ca9de7
+
+Package: graph
+Source: Bioconductor
+Version: 1.52.0
+Hash: 025c762bc38ddda3436f7937bbbf77ee
+Requires: BiocGenerics
+
+Package: httr
+Source: CRAN
+Version: 1.3.1
+Hash: 2d32e01e53d532c812052e27a1021441
+Requires: R6, curl, jsonlite, mime, openssl
+
+Package: igraph
+Source: CRAN
+Version: 1.2.1
+Hash: a979d42385efda8e8aca7882a296ab50
+Requires: Matrix, magrittr, pkgconfig
+
+Package: jsonlite
+Source: CRAN
+Version: 1.5
+Hash: 9c51936d8dd00b2f1d4fe9d10499694c
+
+Package: lattice
+Source: CRAN
+Version: 0.20-34
+Hash: 4390fc5602fd36017be70a27f7123ff3
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: bdc4d48c3135e8f3b399536ddf160df4
+
+Package: matrixStats
+Source: CRAN
+Version: 0.53.1
+Hash: a61f2923f4fedae23025ef27645674bc
+
+Package: mime
+Source: CRAN
+Version: 0.5
+Hash: 463550cf44fb6f0a2359368f42eebe62
+
+Package: mvtnorm
+Source: CRAN
+Version: 1.0-7
+Hash: 8ec337a3f6cfc7d634c648262d80075f
+
+Package: openssl
+Source: CRAN
+Version: 1.0.1
+Hash: e04b8ed7b05c1f75aa81c65a086b1d0c
+
+Package: packrat
+Source: github
+Version: 0.4.9-12
+Hash: f3a87fde7eca2191e4fbb2b06d3583d2
+GithubRepo: packrat
+GithubUsername: rstudio
+GithubRef: master
+GithubSha1: cea6c235c335b31bd6d3f373ea1e9e29397eff0e
+RemoteHost: https://api.github.com
+RemoteRepo: packrat
+RemoteUsername: rstudio
+RemoteSha: cea6c235c335b31bd6d3f373ea1e9e29397eff0e
+
+Package: pcaPP
+Source: CRAN
+Version: 1.9-73
+Hash: 1b0887187cbe45f9997e70502af52ac5
+Requires: mvtnorm
+
+Package: pillar
+Source: CRAN
+Version: 1.2.1
+Hash: 21190605f9f425d625a09c8259860bae
+Requires: cli, crayon, rlang, utf8
+
+Package: pkgconfig
+Source: CRAN
+Version: 2.0.1
+Hash: 0dda4a2654a22b36a715c2b0b6fbacac
+
+Package: plogr
+Source: CRAN
+Version: 0.2.0
+Hash: 81a8008a5e7858552503935f1abe48aa
+
+Package: plyr
+Source: CRAN
+Version: 1.8.4
+Hash: 2d09eea8a6bcac8e61b6a8728917b877
+Requires: Rcpp
+
+Package: reshape2
+Source: CRAN
+Version: 1.4.3
+Hash: db7226b8ea11d02510f74d6a397959d6
+Requires: Rcpp, plyr, stringr
+
+Package: rlang
+Source: CRAN
+Version: 0.2.0
+Hash: 647e2e50a72557d1a770dcd6701e562b
+
+Package: robustbase
+Source: CRAN
+Version: 0.92-8
+Hash: 47f671cf700fbaa2015bb61701e6f7f4
+Requires: DEoptimR
+
+Package: rrcov
+Source: CRAN
+Version: 1.4-3
+Hash: c4804bb98b9c39daa098f23e417f92fb
+Requires: cluster, lattice, mvtnorm, pcaPP, robustbase
+
+Package: rtson
+Source: github
+Version: 1.4.4
+Hash: f41468e22b9401b04bcf834f2f6e8b40
+Requires: R6
+GithubRepo: TSON
+GithubUsername: tercen
+GithubRef: 1.4.4-rtson
+GithubSha1: 01c0ff70ed30b7332f506403713158959492f8ca
+RemoteHost: https://api.github.com
+RemoteRepo: TSON
+RemoteUsername: tercen
+RemoteSha: 01c0ff70ed30b7332f506403713158959492f8ca
+GithubSubdir: rtson
+
+Package: stringi
+Source: CRAN
+Version: 1.1.7
+Hash: d3dbb18da9a7b73a5b59416e33ad2cbd
+
+Package: stringr
+Source: CRAN
+Version: 1.3.1
+Hash: 9f417a1d899ed1f080942ab36998e8b5
+Requires: glue, magrittr, stringi
+
+Package: tercen
+Source: github
+Version: 0.7.1
+Hash: 395a2ad9de89c60c3e44aeb118ffb6d2
+Requires: R6, dplyr, httr, jsonlite, rtson, tibble, yaml
+GithubRepo: teRcen
+GithubUsername: tercen
+GithubRef: 0.7.1
+GithubSha1: 4f6cae07ca68202680409fb985db18be63a2e89a
+RemoteHost: https://api.github.com
+RemoteRepo: teRcen
+RemoteUsername: tercen
+RemoteSha: 4f6cae07ca68202680409fb985db18be63a2e89a
+
+Package: tibble
+Source: CRAN
+Version: 1.4.2
+Hash: 83895360ce4f8d2ce92eee00526b5b0b
+Requires: cli, crayon, pillar, rlang
+
+Package: tsne
+Source: CRAN
+Version: 0.1-3
+Hash: 7f621c1562d9f186946f74488ae9884f
+
+Package: utf8
+Source: CRAN
+Version: 1.1.3
+Hash: a2fe6a996668ee5850b7719f365e831b
+
+Package: yaml
+Source: CRAN
+Version: 2.1.18
+Hash: 28c7e28c239d7a1d1bd579390bab89bd
