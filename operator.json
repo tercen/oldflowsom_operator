@@ -6,31 +6,31 @@
   "urls": ["https://github.com/tercen/flowsom_operator"],
   "properties": [
   {
-    "kind": "IntergerProperty",
+    "kind": "DoubleProperty",
     "name": "xdim",
     "defaultValue": 10,
     "description": "size of x dim for the som grid"
   },
    {
-    "kind": "IntergerProperty",
+    "kind": "DoubleProperty",
     "name": "ydim",
     "defaultValue": 10,
     "description": "size of y dim for the som grid"
   },
   {
-    "kind": "IntergerProperty",
+    "kind": "DoubleProperty",
     "name": "rlen",
     "defaultValue": true,
     "description": "size of rlen"
   },
    {
-    "kind": "IntergerProperty",
+    "kind": "DoubleProperty",
     "name": "mst",
     "defaultValue": 1,
     "description": "amount of training"
   },
    {
-    "kind": "IntergerProperty",
+    "kind": "DoubleProperty",
     "name": "mst",
     "defaultValue": 1,
     "description": "amount of training"
@@ -48,7 +48,7 @@
     "description": "alpha setting"
   },
  {
-    "kind": "IntergerProperty",
+    "kind": "DoubleProperty",
     "name": "distf",
     "defaultValue": 1,
     "description": "distance setting"
