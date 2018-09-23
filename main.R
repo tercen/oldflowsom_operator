@@ -1,5 +1,5 @@
 set.seed(42)
-librasetRepositoriesry(tercen)
+library(tercen)
 library(dplyr)
 library(reshape2)
 library(FlowSOM)
@@ -18,12 +18,7 @@ dataSOM = SOM(data,
               rlen   = as.integer(ctx$op.value('rlen')), 
               mst    = as.integer(ctx$op.value('mst')), 
               alpha  = c(as.integer(ctx$op.value('alpha_1')),(as.double(ctx$op.value('alpha_2')))),
-              radius  = stats::quantile(nhbrdist, 0.67) * c(1, 0),
-              init   = FALSE,
-              distf  = as.integer(ctx$op.value('distf')), 
-              silent = FALSE, 
-              codes  = NULL, 
-              importance = NULL
+              distf  = as.integer(ctx$op.value('distf'))
               )
 mapping_node_num   = dataSOM$mapping[ ,1]
 mapping_node_label = str_pad(as.character(dataSOM$mapping[ ,1]), 2, pad = "0")

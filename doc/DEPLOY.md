@@ -11,5 +11,5 @@ rm -r packrat && rm .Rprofile && R --vanilla -e "packrat::init(options = list(us
 ```
 
 ```
-git add -A && git commit -m "modified json" && git tag -a 0.0.6 -m "++" && git push && git push --tags
-https://github.com/tercen/flowsom_operator
+git add -A && git commit -m "modified mistake code" && git tag -a 0.0.7 -m "++" && git push && git push --tags
+
