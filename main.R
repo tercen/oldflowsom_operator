@@ -17,7 +17,7 @@ dataSOM = SOM(data,
               ydim   = as.integer(ctx$op.value('ydim')), 
               rlen   = as.integer(ctx$op.value('rlen')), 
               mst    = as.integer(ctx$op.value('mst')), 
-              alpha  = c(as.integer(ctx$op.value('alpha_1')),(as.double(ctx$op.value('alpha_2')))),
+              alpha  = c(as.integer(ctx$op.value('alpha_start')),(as.double(ctx$op.value('alpha_end')))),
               distf  = as.integer(ctx$op.value('distf'))
               )
 mapping_node_num   = dataSOM$mapping[ ,1]
