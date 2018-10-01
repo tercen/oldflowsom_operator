@@ -35,6 +35,6 @@ see the `flowSOM::SOM` function of the R package for the documentation,
 
 
 ##### See Also
-
+[clusterx](https://github.com/tercen/clusterx_operator)
 
 #### Examples
