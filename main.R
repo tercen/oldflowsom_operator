@@ -1,10 +1,10 @@
-set.seed(42)
 library(tercen)
 library(dplyr)
 library(reshape2)
 library(FlowSOM)
 library(stringr)
 
+set.seed(42)
 
 data = (ctx = tercenCtx())  %>% 
   select(.ci, .ri, .y) %>% 
