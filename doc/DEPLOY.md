@@ -1,6 +1,7 @@
 ## Deploy
 
 ```R
+options(repos = c(getOption("repos"), BiocInstaller::biocinstallRepos()))
 packrat::init(options = list(use.cache = TRUE))
 ```
 
