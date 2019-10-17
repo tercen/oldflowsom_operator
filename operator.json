@@ -3,7 +3,7 @@
   "description": "clustering algorithm from the flowSOM R package",
   "tags": ["clustering", "flow cytometry"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/flowsom_operator"],
+  "urls": ["https://github.com/tercen/somflow_operator"],
   "properties": [
   {
     "kind": "DoubleProperty",
