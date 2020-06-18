@@ -1,5 +1,5 @@
 {
-  "name": "flowsom",
+  "name": "som",
   "description": "clustering algorithm from the flowSOM R package",
   "tags": ["clustering", "flow cytometry"],
   "authors": ["tercen"],
